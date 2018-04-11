@@ -6,10 +6,10 @@
     display: flex;
 }
 .cabeçalho label{
-    padding: 5px 0;
+    padding: 6px 0;
     flex-grow: 1;
     cursor: pointer;
-    transition: all .4s;
+    transition: all .3s;
     text-align: center;
     text-shadow: 0 3px 3px #000;
     font-family: Arial, Helvetica, sans-serif;
@@ -41,37 +41,54 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-
-#img1 h1{
-    
-    padding-top: 30px;
-}
 #img1 p{
-    padding-bottom: 80px;
-    padding-top: 30px;
+    padding-bottom: 70px;
+    padding-top: 10px;
 }
 
 #img2 p{
-    padding-bottom: 25px;
+    padding-bottom: 15px;
 }
+.rodape1{
+    padding-bottom: 10px;
+}
+
+.rodape2{
+    padding-top: 55px;
+    text-align: center;
+}
+.rodape2 i{
+    color: white;
+}
+.rodape2 i:hover{
+    color: black;
+}
+
 .roll{
     display: flex;
     width: 100vw;
     height: 100vh;
     overflow: hidden;
 }
-.wrapper{transition: all .3s;}
+.wrapper{transition: all .4s;}
 .wrapper h1{
     text-align:center;
-    font-family:"Lucida Console", Courier, monospace;
-    font-size: 30px;
+    font-family:"Lucida Bright";
+    font-size: 25px;
     color: #fff;
     text-shadow: 0 2px 2px #000;
 }
 .wrapper p{
     text-align: center;
-    font-family:"Lucida Console", Courier, monospace;;
-    font-size:20px;
+    font-family:"Lucida Console";
+    font-size:18px;
+    color: #fff;
+    text-shadow: 0 1px 1px #000;
+}
+.wrapper ul{
+    text-align: center;
+    font-family:"Lucida Console";
+    font-size:18px;
     color: #fff;
     text-shadow: 0 1px 1px #000;
 }
@@ -79,3 +96,9 @@
 #rd-img1:checked ~ .wrapper{margin-top:0vh;}
 #rd-img2:checked ~ .wrapper{margin-top:-100vh;}
 #rd-img3:checked ~ .wrapper{margin-top:-200vh;}
+
+/*configuracoes de tela*/
+@media (max-width: 320px) { 
+}   
+@media (min-width:1024px) {
+}
