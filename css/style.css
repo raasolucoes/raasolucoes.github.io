@@ -29,17 +29,23 @@
 #img1{
     background-image: url("../medias/image1.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size:cover;
 }
 #img2{
     background-image: url("../medias/image2.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size:cover;
 }
 #img3{
     background-image: url("../medias/image3.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size:cover;
 }
 #img1 p{
     padding-bottom: 70px;
